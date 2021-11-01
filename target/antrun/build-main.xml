@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\phonepe\bus\bus\target/bus.zip">
+    <zipfileset includes="lib/**" dir="D:\phonepe\bus\bus\target"/>
+    <zipfileset includes="bus.jar" dir="D:\phonepe\bus\bus\target"/>
+    <zipfileset includes="readme.txt" dir="D:\phonepe\bus\bus"/>
+  </zip>
+</target>
+</project>
